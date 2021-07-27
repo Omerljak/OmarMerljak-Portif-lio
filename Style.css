@@ -1,72 +1,47 @@
 
 body {
-background-color: honeydew;
-text-align: center;
-right: 30px;
+  background-size: contain;
+  background-color: honeydew;
 }
-.Texto {
-  text-align: center;
-}
-.topo-imagem {
-  display: inline;
-  width: 100%;
-  height: 400px;
-  margin-left: 100px;
+header {
+  border: 3px solid black;
+ 
 }
 .image {
-  border-radius: 30px;
+  border-style: groove;
+  border-radius: 200px;
+  margin-left: 30px;
   position: absolute;
-  left: 200px;
-
-}
-.midias {
-  position: absolute;
-  right: 200px;
-  left: 700px;
   
 }
-.skill-container {
-  color: black;
+aside {
+  position: absolute;
+  top: 20px;
+  left: 720px;
 }
-.botton {
-  color: whitesmoke;
-  background-color: #2BCBD4C2 ;
-  padding: 15px 30px;
-  border-radius: 40px;
-  text-decoration: none;
+.bio {
+text-align: center;
+position: absolute;
+left: 270px;
 }
-#contatos {
-  font-size: small;
-  font-style: italic;
-  background-color: rgba(128, 128, 128, 0.829);
+.article {
+  position: absolute;
+  width: 600px;
+  top: 300px;
+  left: 100px;
 }
-h1 {
-  margin-left: 170px;
-  font-style: italic;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.soft-skills {
+  float: right;
+  text-align: center;
+  margin-left: 100px;
 }
-h2 {
-  font-size: 30px;
-  font-weight: 250;
-  font-style: italic;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.hard-skills {
+  text-align: center;
 }
-h3 {
-  font-style: italic bold;
-  color: grey;
-  font-size: 25px;
-}
-p {
-  font-size: 20px;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 25px;
-}
-li {
-  font-size: 20px;
-}
-.Texto {
-  line-height: 35px;
-  float: left;
+footer {
+  border: 3px solid black;
+  position: absolute;
+  top: 800px;
+  width: 900px;
+  text-align: center;
 }
